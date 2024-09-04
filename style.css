@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background: #787a7a;
+    width: 100%;
+    height: 100%;
+    margin: auto auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+main{
+    background: #000000;
+    width: 240px;
+    height: 350px;
+    padding: 10px 10px; 
+    border-radius: 15px;
+}
+
+button{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    background: #f5ba3c;
+    border: none;
+}
+
+button:hover{
+    background: #ffffff;
+}
+
+section.tela{
+    background: #ffffff;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+
+footer button{
+    width: 106px;
+}
